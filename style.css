@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    padding: 3px;
+}
+
+.row {
+  width: 100%;
+  gap: 15px;
+}
+
+#secondDiv, #thirdDiv {
+    display: none;
+}
+
+.feedback {
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+#guesses {
+    position: relative;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#result {
+    position: relative;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#imgDisplayer {
+    position: relative;
+    width: 50%;
+    height: 200px;
+    object-fit: contain;
+}
+
+#guessButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+#resetBtn {
+    width: 30%;
+}
+
+.l33t {
+    color: darkslategrey;
+    position: relative;
+    text-align: right;
+    bottom: 200px;
+    left: 12px;
+}
+
+#formEl {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 15% 0 15%;
+}
+
+#firstDiv, h1, h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 576px) {
+    #imgDisplayer {
+        height: 200px;
+        object-fit: contain;
+    }
+}
+
+@media (min-width: 768px) {
+    #imgDisplayer {
+        height: 250px;
+        width: 50%;
+        object-fit: contain;
+    }
+}
+
+@media (min-width: 992px) {
+    #imgDisplayer {
+        height: 350px;
+        width: 50%;
+        object-fit: contain;
+    }
+}
